@@ -41,3 +41,16 @@ y4 = Convert.ToInt32(Console.ReadLine());
 double l2 = Math.Sqrt(Math.Pow(x4 - x3, 2) + Math.Pow(y4 - y3, 2));
 Console.WriteLine("length of line 2 is " + l2);
 Console.WriteLine("both lines are equal: " + l1.Equals(l2)); //return T/F
+
+if (l1 > l2)
+{
+    Console.WriteLine("Line1 is greater than line2");
+}
+else if (l1 < l2)
+{
+    Console.WriteLine("Line1 is less than line2");
+}
+else
+{
+    Console.WriteLine("Line1 is equal to line2");
+}
